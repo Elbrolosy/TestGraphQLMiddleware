@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace TestGraphQLMiddleware.Graphql
 {
-    // this does work
+    // this doesn't work
     public class SalesDepartmentAuthorizationHandler
     : AuthorizationHandler<SalesDepartmentRequirement, IResolverContext>
     {
